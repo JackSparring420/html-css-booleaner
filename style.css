@@ -39,12 +39,12 @@ h1{
     margin-top: 20px;
 }
 
-.autore, .nome{
+#autore, #nome{
     display: inline;
     color: gray;
 }
 
-.nome{
+#nome{
     color: #20a9e5;
 }
 
@@ -52,7 +52,7 @@ h1{
     font-size: 13px;
 }
 
-.data{
+#data{
     color: gray;
 }
 
@@ -93,12 +93,12 @@ table{
 
 /* link suggeriti */
 
-.link{
+#interessi{
     color: gray;
     margin-bottom: 10px;
 }
 
-.link_a, .link_b{
+.link{
     width: 210px;
     height: 160px;
     background-image:url(img/monitor.jpg);
@@ -108,10 +108,10 @@ table{
     padding:5px;
 }
 
-.link_a{
+#link_a{
     background-image:url(img/monitor.jpg)
 }
 
-.link_b{
+#link_b{
     background-image:url(img/graph.jpg)
 }
